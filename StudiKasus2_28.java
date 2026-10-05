@@ -37,7 +37,6 @@ public class StudiKasus2_28 {
                     System.out.println("Status : Dokumen lengkap");
                     System.out.println("Dana penghargaan : Tidak diberikan");
                 }
-            
         }
         input.close();
     }
