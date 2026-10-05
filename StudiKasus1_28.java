@@ -10,5 +10,11 @@ public class StudiKasus1_28 {
         int totalBayar;
         int kembalian;
         int kurang;
+        System.out.print("Masukkan jumlah cup: ");
+        jumlahCup = input.nextInt();
+        System.out.print("Masukkan uang bayar: Rp");
+        uangBayar = input.nextInt();
+        
+        input.close();
     }
 }
