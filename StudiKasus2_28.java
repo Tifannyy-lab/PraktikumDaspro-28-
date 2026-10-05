@@ -44,7 +44,19 @@ if (kegiatan.equalsIgnoreCase("PKM")) {
                     System.out.println("Status : Dokumen lengkap");
                     System.out.println("Dana penghargaan : Tidak diberikan");
                 }
-
+            } else if (kegiatan.equalsIgnoreCase("PKM")) {
+                if (statusPKM == 1) {
+                    System.out.println("Status : Dokumen lengkap");
+                    System.out.println("Dana penghargaan : Diberikan");
+                } else {
+                    System.out.println("Status : Dokumen lengkap");
+                    System.out.println("Dana penghargaan : Tidak diberikan");
+                }
+            } else {
+                System.out.println("Status : Dokumen lengkap");
+                System.out.println("Dana penghargaan : Tidak diberikan");
+            }
+        }
         input.close();
     }
 }
